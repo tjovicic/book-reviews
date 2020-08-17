@@ -1,4 +1,4 @@
-# Chapter 1
+# 1. Reliable, Scalable and Maintainable Applications
 
 ## Reliability
 System should work correctly even in the face of adversity
@@ -27,7 +27,7 @@ Over time many different people should work on the system productively
 ### Maintainability
 - operability, simplicity, evolvability
 
-# Chapter 2
+# 2. Data Models and Query Language
 
 ## Impedance mismatch
 - need for a translating layer between objects in code and SQL tables
@@ -56,3 +56,10 @@ Over time many different people should work on the system productively
 - imperative tells how
   - hard to parallelize because of ordering
 
+# 3. Storage and Retrieval
+
+## Column oriented storage
+
+- storing columns in segments instead of rows
+- optimizing storage using bitmasks
+- using precomputed results, e.g. OLAP cube
